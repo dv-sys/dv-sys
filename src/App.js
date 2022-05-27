@@ -85,6 +85,7 @@ function App() {
                               return item.title.toLowerCase().includes(event.target.value.toLowerCase());
                             }
                             )
+     
       //console.log('filterResult:', filterResult);                      
       setItems(filterResult);
     }
